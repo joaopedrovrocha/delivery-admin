@@ -1,8 +1,8 @@
 'use client'
 
-import { BuyingStep, BuyingStepProduct, getBuyingStepsMounted } from "@/app/data/buying-steps.data"
-import { Product, getProductsMounted } from "@/app/data/products.data"
-import { normalizeStringToSearch } from "@/app/utils"
+import { BuyingStep, BuyingStepProduct, getBuyingStepsMounted } from "@/data/buying-steps.data"
+import { Product, getProductsMounted } from "@/data/products.data"
+import { normalizeStringToSearch } from "@/utils"
 import { ChevronDownIcon, ChevronUpIcon, CubeIcon, TrashIcon } from "@heroicons/react/24/outline"
 import { useEffect, useMemo } from "react"
 import ComboBox from "../../ui/combobox"

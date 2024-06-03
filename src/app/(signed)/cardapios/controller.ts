@@ -1,7 +1,7 @@
 'use client'
 
-import { useConfirmationModal } from "@/app/contexts/confirmation-modal.context"
-import { Menu, getMenuMounted } from "@/app/data/menu.data"
+import { useConfirmationModal } from "@/contexts/confirmation-modal.context"
+import { Menu, getMenuMounted } from "@/data/menu.data"
 import { useMemo, useState } from "react"
 
 export function useController() {

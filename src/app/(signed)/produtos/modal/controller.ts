@@ -1,7 +1,7 @@
 'use client'
 
-import { Product } from '@/app/data/products.data'
-import { normalizeNumber } from '@/app/utils'
+import { Product } from '@/data/products.data'
+import { normalizeNumber } from '@/utils'
 import { useFormik } from 'formik'
 import * as yup from 'yup'
 

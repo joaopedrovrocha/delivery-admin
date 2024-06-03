@@ -1,8 +1,8 @@
 'use client'
 
-import { BuyingStepType, VirtualProduct } from '@/app/data/buying-steps.data'
-import { Product, getProductsByCategory } from '@/app/data/products.data'
-import { formatNumber, normalizeNumber } from '@/app/utils'
+import { BuyingStepType, VirtualProduct } from '@/data/buying-steps.data'
+import { Product, getProductsByCategory } from '@/data/products.data'
+import { formatNumber, normalizeNumber } from '@/utils'
 import { useFormik } from 'formik'
 import { useEffect, useState } from 'react'
 import { v4 } from 'uuid'

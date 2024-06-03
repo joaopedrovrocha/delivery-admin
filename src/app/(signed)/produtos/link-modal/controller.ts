@@ -1,7 +1,7 @@
 'use client'
 
-import { BuyingStep } from "@/app/data/buying-steps.data"
-import { Product, ProductBuyingStep, getProductsMounted } from "@/app/data/products.data"
+import { BuyingStep } from "@/data/buying-steps.data"
+import { Product, ProductBuyingStep, getProductsMounted } from "@/data/products.data"
 import { useFormik } from "formik"
 import { useState } from "react"
 import * as yup from 'yup'

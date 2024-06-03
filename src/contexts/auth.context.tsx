@@ -1,7 +1,7 @@
 'use client'
 
 import { PropsWithChildren, createContext, useContext, useEffect, useMemo, useState } from "react"
-import useCookie from "../hooks/cookie.hook"
+import useCookie from "@/hooks/cookie.hook"
 
 export interface User {
   username: string

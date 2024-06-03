@@ -1,7 +1,7 @@
 'use client'
 
-import { Menu } from "@/app/data/menu.data"
-import { normalizeWeekday } from "@/app/utils"
+import { Menu } from "@/data/menu.data"
+import { normalizeWeekday } from "@/utils"
 import { Field, Label, Switch } from "@headlessui/react"
 import { Bars4Icon, ClockIcon, ExclamationCircleIcon } from "@heroicons/react/24/outline"
 import { useEffect } from "react"

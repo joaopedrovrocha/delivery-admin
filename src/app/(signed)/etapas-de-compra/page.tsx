@@ -1,6 +1,6 @@
 'use client'
 
-import { BuyingStep, getBuyingStepsMounted } from "@/app/data/buying-steps.data"
+import { BuyingStep, getBuyingStepsMounted } from "@/data/buying-steps.data"
 import { Square3Stack3DIcon } from "@heroicons/react/24/outline"
 import { useMemo } from "react"
 import DefaultPage from "../ui/default-page"

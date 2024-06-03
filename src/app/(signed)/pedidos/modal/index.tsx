@@ -1,7 +1,7 @@
 'use client'
 
-import { ORDER_STATUS, Order, OrderProduct } from "@/app/data/order.data"
-import { formatNumber } from "@/app/utils"
+import { ORDER_STATUS, Order, OrderProduct } from "@/data/order.data"
+import { formatNumber } from "@/utils"
 import { XMarkIcon } from "@heroicons/react/24/outline"
 import ModalDialog from "../../ui/modal"
 

@@ -1,6 +1,6 @@
 'use client'
 
-import { ORDER_STATUS } from '@/app/data/order.data'
+import { ORDER_STATUS } from '@/data/order.data'
 import { FireIcon, HomeIcon, InboxIcon, ShoppingCartIcon, TruckIcon } from '@heroicons/react/24/outline'
 import { useMemo } from 'react'
 import DefaultPage from '../ui/default-page'

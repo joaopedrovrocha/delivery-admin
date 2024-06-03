@@ -1,8 +1,8 @@
 'use client'
 
-import { getCategories } from "@/app/data/categories.data"
-import { Product } from "@/app/data/products.data"
-import { formatNumber } from "@/app/utils"
+import { getCategories } from "@/data/categories.data"
+import { Product } from "@/data/products.data"
+import { formatNumber } from "@/utils"
 import { ExclamationCircleIcon } from "@heroicons/react/20/solid"
 import { CubeIcon } from "@heroicons/react/24/outline"
 import { useEffect, useMemo } from "react"

@@ -1,7 +1,7 @@
 'use client'
 
-import { useConfirmationModal } from "@/app/contexts/confirmation-modal.context"
-import { DeliveryFeeDistrict } from "@/app/data/delivery-fee.data"
+import { useConfirmationModal } from "@/contexts/confirmation-modal.context"
+import { DeliveryFeeDistrict } from "@/data/delivery-fee.data"
 import { useState } from "react"
 
 export function useController() {

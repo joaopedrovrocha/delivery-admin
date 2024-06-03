@@ -1,10 +1,10 @@
 'use client'
 
-import { Category, categories } from "@/app/data/categories.data"
-import { Menu } from "@/app/data/menu.data"
-import { Product, getProductsMounted } from "@/app/data/products.data"
-import { Sale, getSalesMounted } from "@/app/data/sales.data"
-import { classNames, formatNumber, normalizeStringToSearch } from "@/app/utils"
+import { Category, categories } from "@/data/categories.data"
+import { Menu } from "@/data/menu.data"
+import { Product, getProductsMounted } from "@/data/products.data"
+import { Sale, getSalesMounted } from "@/data/sales.data"
+import { classNames, formatNumber, normalizeStringToSearch } from "@/utils"
 import { Bars4Icon, ExclamationCircleIcon, PlusIcon, XMarkIcon } from "@heroicons/react/24/outline"
 import { useEffect } from "react"
 import ComboBox from "../../ui/combobox"

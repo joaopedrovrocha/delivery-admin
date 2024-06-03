@@ -19,8 +19,8 @@ import {
 } from '@heroicons/react/24/outline'
 import { usePathname } from 'next/navigation'
 import { Fragment, PropsWithChildren, useState } from 'react'
-import { useUser } from '../hooks/user.hook'
-import { classNames } from '../utils'
+import { useUser } from '@/hooks/user.hook'
+import { classNames } from '@/utils'
 
 interface NavigationItem {
   name: string
@@ -45,7 +45,7 @@ const navigation: NavigationItem[] = [
       { name: 'Distancia', href: '/entregas/distancia', icon: TagIcon, exact: false },
     ]
   },
-  { name: 'Relatórios', href: '#', icon: PresentationChartLineIcon, exact: false },
+  // { name: 'Relatórios', href: '#', icon: PresentationChartLineIcon, exact: false },
 ]
 
 export default function Template({ children }: PropsWithChildren) {

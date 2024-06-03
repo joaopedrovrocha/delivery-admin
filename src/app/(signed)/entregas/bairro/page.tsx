@@ -1,7 +1,7 @@
 'use client'
 
-import { DeliveryFeeDistrict, deliveryFeeDistrict } from "@/app/data/delivery-fee.data"
-import { formatNumber } from "@/app/utils"
+import { DeliveryFeeDistrict, deliveryFeeDistrict } from "@/data/delivery-fee.data"
+import { formatNumber } from "@/utils"
 import { TruckIcon } from "@heroicons/react/24/outline"
 import { useMemo } from "react"
 import DefaultPage from "../../ui/default-page"

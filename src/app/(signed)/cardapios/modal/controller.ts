@@ -1,6 +1,6 @@
 'use client'
 
-import { Menu, WEEKDAY } from '@/app/data/menu.data'
+import { Menu, WEEKDAY } from '@/data/menu.data'
 import { useFormik } from 'formik'
 import * as yup from 'yup'
 

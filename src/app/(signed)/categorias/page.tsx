@@ -1,7 +1,7 @@
 'use client'
 
-import { Category, categories } from "@/app/data/categories.data"
-import { products } from "@/app/data/products.data"
+import { Category, categories } from "@/data/categories.data"
+import { products } from "@/data/products.data"
 import { FunnelIcon } from "@heroicons/react/24/outline"
 import DefaultPage from "../ui/default-page"
 import Table from "../ui/table"

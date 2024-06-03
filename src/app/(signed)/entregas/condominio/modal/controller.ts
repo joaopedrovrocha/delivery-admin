@@ -1,7 +1,7 @@
 'use client'
 
-import { DeliveryFeeCondo } from '@/app/data/delivery-fee.data'
-import { normalizeNumber } from '@/app/utils'
+import { DeliveryFeeCondo } from '@/data/delivery-fee.data'
+import { normalizeNumber } from '@/utils'
 import { useFormik } from 'formik'
 import * as yup from 'yup'
 

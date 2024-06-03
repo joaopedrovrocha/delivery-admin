@@ -1,7 +1,7 @@
 'use client'
 
-import { DeliveryFeeDistance, deliveryFeeDistance } from "@/app/data/delivery-fee.data"
-import { formatKilometer, formatNumber } from "@/app/utils"
+import { DeliveryFeeDistance, deliveryFeeDistance } from "@/data/delivery-fee.data"
+import { formatKilometer, formatNumber } from "@/utils"
 import { TruckIcon } from "@heroicons/react/24/outline"
 import { useMemo } from "react"
 import DefaultPage from "../../ui/default-page"

@@ -1,7 +1,7 @@
 'use client'
 
-import { DeliveryFeeCondo } from "@/app/data/delivery-fee.data"
-import { formatNumber } from "@/app/utils"
+import { DeliveryFeeCondo } from "@/data/delivery-fee.data"
+import { formatNumber } from "@/utils"
 import { ExclamationCircleIcon } from "@heroicons/react/20/solid"
 import { TruckIcon } from "@heroicons/react/24/outline"
 import { useEffect } from "react"

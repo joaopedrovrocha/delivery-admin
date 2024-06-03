@@ -1,6 +1,6 @@
 'use client'
 
-import { classNames } from "@/app/utils"
+import { classNames } from "@/utils"
 import { ChevronLeftIcon, ChevronRightIcon, PencilIcon, TrashIcon } from "@heroicons/react/20/solid"
 import { useCallback, useEffect, useMemo } from "react"
 import TableActionButton from "./action-button.table"

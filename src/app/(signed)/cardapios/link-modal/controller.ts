@@ -1,8 +1,8 @@
 'use client'
 
-import { Category } from '@/app/data/categories.data'
-import { Product, getProductsByCategory } from '@/app/data/products.data'
-import { Sale } from '@/app/data/sales.data'
+import { Category } from '@/data/categories.data'
+import { Product, getProductsByCategory } from '@/data/products.data'
+import { Sale } from '@/data/sales.data'
 import { useFormik } from 'formik'
 import { v4 } from 'uuid'
 import * as yup from 'yup'

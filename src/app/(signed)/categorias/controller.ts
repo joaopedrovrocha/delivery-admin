@@ -1,7 +1,7 @@
 'use client'
 
-import { useConfirmationModal } from "@/app/contexts/confirmation-modal.context"
-import { Category } from "@/app/data/categories.data"
+import { useConfirmationModal } from "@/contexts/confirmation-modal.context"
+import { Category } from "@/data/categories.data"
 import { useState } from "react"
 
 export const useCategoriesController = () => {

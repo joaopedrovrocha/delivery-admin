@@ -1,9 +1,9 @@
 'use client'
 
-import { Category, categories } from "@/app/data/categories.data"
-import { Product, getProductsMounted } from "@/app/data/products.data"
-import { Sale, SaleProduct } from "@/app/data/sales.data"
-import { formatNumber, normalizeStringToSearch } from "@/app/utils"
+import { Category, categories } from "@/data/categories.data"
+import { Product, getProductsMounted } from "@/data/products.data"
+import { Sale, SaleProduct } from "@/data/sales.data"
+import { formatNumber, normalizeStringToSearch } from "@/utils"
 import { ExclamationCircleIcon } from "@heroicons/react/20/solid"
 import { TagIcon } from "@heroicons/react/24/outline"
 import moment from "moment"

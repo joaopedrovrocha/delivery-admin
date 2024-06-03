@@ -1,8 +1,7 @@
 'use client'
 
+import { classNames } from "@/utils";
 import { ArrowDownIcon, ArrowUpIcon } from "@heroicons/react/24/outline";
-import { classNames } from "../utils";
-import DefaultPage from "./ui/default-page";
 
 const stats = [
   { name: 'Total de Pedidos', stat: '20', previousStat: '10', change: '100%', changeType: 'increase' },

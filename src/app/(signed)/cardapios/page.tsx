@@ -1,7 +1,7 @@
 'use client'
 
-import { Menu } from "@/app/data/menu.data";
-import { normalizeWeekday } from "@/app/utils";
+import { Menu } from "@/data/menu.data";
+import { normalizeWeekday } from "@/utils";
 import { Bars4Icon, CubeIcon } from "@heroicons/react/24/outline";
 import DefaultPage from "../ui/default-page";
 import Table from "../ui/table";

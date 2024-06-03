@@ -1,8 +1,8 @@
 'use client'
 
-import { getProductsByCategory } from '@/app/data/products.data'
-import { SaleProduct } from '@/app/data/sales.data'
-import { formatNumber, normalizeNumber } from '@/app/utils'
+import { getProductsByCategory } from '@/data/products.data'
+import { SaleProduct } from '@/data/sales.data'
+import { formatNumber, normalizeNumber } from '@/utils'
 import { useFormik } from 'formik'
 import moment from 'moment'
 import { useEffect, useMemo, useState } from 'react'

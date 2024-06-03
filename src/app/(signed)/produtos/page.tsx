@@ -1,7 +1,7 @@
 'use client'
 
-import { Product, getProductsMounted } from "@/app/data/products.data";
-import { formatNumber } from "@/app/utils";
+import { Product, getProductsMounted } from "@/data/products.data";
+import { formatNumber } from "@/utils";
 import { CubeIcon, Square3Stack3DIcon } from "@heroicons/react/24/outline";
 import { useMemo } from "react";
 import DefaultPage from "../ui/default-page";

@@ -1,6 +1,6 @@
 'use client'
 
-import { Sale, getSalesMounted } from "@/app/data/sales.data"
+import { Sale, getSalesMounted } from "@/data/sales.data"
 import { TagIcon } from "@heroicons/react/24/outline"
 import { useMemo } from "react"
 import DefaultPage from "../ui/default-page"

@@ -1,5 +1,5 @@
-import { ORDER_STATUS, Order } from "@/app/data/order.data";
-import { formatNumber } from "@/app/utils";
+import { ORDER_STATUS, Order } from "@/data/order.data";
+import { formatNumber } from "@/utils";
 import { CalendarDaysIcon, CubeIcon, FireIcon, HomeIcon, NoSymbolIcon, TruckIcon, UserIcon } from "@heroicons/react/24/outline";
 
 interface OrderCardInterface {

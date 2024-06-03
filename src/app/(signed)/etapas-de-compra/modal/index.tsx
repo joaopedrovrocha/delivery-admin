@@ -1,9 +1,9 @@
 'use client'
 
-import { BuyingStep, VirtualProduct } from "@/app/data/buying-steps.data"
-import { Category, categories } from "@/app/data/categories.data"
-import { Product, getProductsMounted } from "@/app/data/products.data"
-import { formatNumber, normalizeStringToSearch } from "@/app/utils"
+import { BuyingStep, VirtualProduct } from "@/data/buying-steps.data"
+import { Category, categories } from "@/data/categories.data"
+import { Product, getProductsMounted } from "@/data/products.data"
+import { formatNumber, normalizeStringToSearch } from "@/utils"
 import { ExclamationCircleIcon } from "@heroicons/react/20/solid"
 import { Square3Stack3DIcon } from "@heroicons/react/24/outline"
 import { useEffect } from "react"

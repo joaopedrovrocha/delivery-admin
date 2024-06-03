@@ -1,7 +1,7 @@
 'use client'
 
-import { useConfirmationModal } from "@/app/contexts/confirmation-modal.context"
-import { ORDER_STATUS, Order, getOrdersMounted } from "@/app/data/order.data"
+import { useConfirmationModal } from "@/contexts/confirmation-modal.context"
+import { ORDER_STATUS, Order, getOrdersMounted } from "@/data/order.data"
 import { FireIcon, HomeIcon, NoSymbolIcon, TruckIcon } from "@heroicons/react/24/outline"
 import { useEffect, useState } from "react"
 

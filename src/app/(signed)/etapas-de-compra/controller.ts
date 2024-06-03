@@ -1,7 +1,7 @@
 'use client'
 
-import { useConfirmationModal } from "@/app/contexts/confirmation-modal.context"
-import { BuyingStep, BuyingStepType } from "@/app/data/buying-steps.data"
+import { useConfirmationModal } from "@/contexts/confirmation-modal.context"
+import { BuyingStep, BuyingStepType } from "@/data/buying-steps.data"
 import { useState } from "react"
 
 export function useController() {
